@@ -182,3 +182,38 @@ html {
 }
 
 /* service part design end */
+/* experience part design start */
+.experience-part {
+    background-image: linear-gradient(#2c6879, #736a77);
+    padding: 65px 0;
+    color: #ffffff;
+}
+
+.work-experience {
+    background-image: linear-gradient(#69647c, #4e647d);
+    padding: 65px 100px 65px 50px;
+}
+
+.work-experience h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.work-experience h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.work-experience p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #dddddd;
+    width: 113%;
+}
+
+/* experience part design end*/
