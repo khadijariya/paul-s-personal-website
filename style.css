@@ -86,3 +86,99 @@ html {
 }
 
 /* header area design start */
+/* about part design start */
+.about-part {
+    padding: 70px 0;
+}
+
+.about-content {
+    padding: 115px 18px 115px 44px;
+}
+
+.about-content h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: #737373;
+    padding-bottom: 25px;
+}
+
+.about-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #737373;
+    padding: 9px 0;
+    line-height: 27px;
+}
+
+.about-content a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+    background: #ff2b4a;
+    padding: 13px 52px;
+    text-decoration: none;
+}
+
+.about-button {
+    padding-top: 65px;
+}
+
+/* about part design end */
+/* service part design start */
+.service-part {
+    padding: 120px 0;
+    background: #f6f6f6;
+}
+
+.service-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.service-content p {
+    font-family: 'Roboto', normal;
+    font-size: 18px;
+    color: #6f6f6f;
+    padding-bottom: 35px;
+}
+
+/* single service item design */
+.item-one {
+    background: #10c6fc;
+}
+
+.item-two {
+    background: #835aeb;
+}
+
+.item-three {
+    background: #002453;
+}
+
+.item-four {
+    background: #ff2b4a;
+}
+
+.single-service-item {
+    padding: 80px 55px 65px 45px;
+    color: #ffffff;
+}
+
+.icon i {
+    font-size: 30px;
+}
+
+.icon-content {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+/* service part design end */
