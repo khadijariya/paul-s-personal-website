@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-   
+
 }
 
 html {
     scroll-behavior: smooth;
 }
+
 /* header area design start */
 .header-area {
     background-image: url(img/banner-bg.jpg);
@@ -217,3 +218,199 @@ html {
 }
 
 /* experience part design end*/
+/* portfolio part design start */
+.portfolio-part {
+    padding: 50px 12%;
+}
+
+.portfolio-content h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.portfolio-content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #7f7f7f;
+    padding-bottom: 18px;
+
+}
+
+/* portfolio part design end */
+/* testimonial slider design start */
+.testimonial-slider {
+    background: #64cbc0;
+    padding: 140px 0 50px 160px;
+}
+
+.slider-content i {
+    color: #317688;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.slider-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1d4440;
+    line-height: 28px;
+}
+
+.sign-part {
+    padding-top: 75px;
+
+}
+
+.sign-part h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #1d4440;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.slider-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1d4440;
+    line-height: 28px;
+    width: 115%;
+}
+
+.slider-image img {
+    width: 75%;
+}
+
+.slider-image {
+    padding: 0px 18px 45px 125px;
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #353A4F;
+}
+
+.custom-indicator {
+    padding-right: 95px;
+    margin-bottom: -20px;
+}
+
+/* testimonial slider design end */
+/* contact part design start */
+.contact-area {
+    background-image: linear-gradient(#2c6879, #736a77);
+    padding: 110px 0;
+}
+
+.left-contact {
+    background-image: linear-gradient(#69647c, #4e647d);
+    box-shadow: 0px 0px 5px #737373;
+    padding: 50px 40px;
+}
+
+.left-contact h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.form-group .form-control {
+    padding: 25px 25px;
+    font-size: 18px;
+    background: none;
+    border-radius: 2px;
+}
+
+.form-group .form-control::placeholder {
+    color: #ffffff;
+    background: none;
+}
+
+.custom-btn {
+    background: #ff2b4a;
+    color: #ffffff;
+    padding: 12px 80px;
+    border-radius: 0;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: 0.5s all ease;
+}
+
+.custom-btn:hover {
+    color: #ff2b4a;
+    background: #ffffff;
+}
+
+.custom-button {
+    padding-top: 20px;
+}
+
+.right-contact-bg {
+    background-image: linear-gradient(#4e647d, #69647c);
+    padding: 42px 35px;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px #737373;
+}
+
+.right-contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.right-contact p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.address-portion p {
+    width: 105%;
+    line-height: 27px;
+
+}
+
+.web-portion a {
+    color: #ffffff;
+    text-decoration: #ffffff;
+    cursor: pointer;
+}
+
+/* contact part design end */
+/* footer part design start */
+.footer-part {
+    padding: 50px 0 45px 0;
+    background: #222222;
+    color: #aaaaaa;
+}
+
+.social-icon i {
+    color: #aaaaaa;
+}
+
+.social-icon i:hover {
+    color: #ff2b4a;
+}
+
+..footer-part p {
+    font-family: 'Roboto', normal;
+    font-size: 15px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+}
+
+/* footer part design end */
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
