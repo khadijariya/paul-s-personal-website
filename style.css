@@ -7,3 +7,82 @@ body {
 html {
     scroll-behavior: smooth;
 }
+/* header area design start */
+.header-area {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    height: 100vh;
+}
+
+/* header-menu design */
+.navbar-light .navbar-toggler {
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 8px 8px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-light .navbar-toggler-icon i {
+    color: #ffffff;
+    padding: 1px 0;
+    font-size: 30px;
+}
+
+.custom-menu ul li a {
+    color: #ffffff !important;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-family: 22px;
+
+}
+
+/* header content design */
+.header-content {
+    padding: 190px 0;
+    color: #ffffff;
+    position: relative;
+}
+
+.header-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 65px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.header-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.header-content::after {
+    position: absolute;
+    background-color: #ffffff;
+    content: '';
+    width: 51%;
+    height: 3px;
+    top: 32%;
+    left: 24%;
+}
+
+.header-content::before {
+    position: absolute;
+    background-color: #ffffff;
+    content: '';
+    width: 51%;
+    height: 3px;
+    top: 51%;
+    left: 24%;
+}
+
+/* header area design start */
