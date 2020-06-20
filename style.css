@@ -1,13 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-
+   
 }
 
 html {
     scroll-behavior: smooth;
 }
-
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+/* basic css end here */
 /* header area design start */
 .header-area {
     background-image: url(img/banner-bg.jpg);
